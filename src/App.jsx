@@ -63,9 +63,9 @@ function Header() {
   return (
     <header className="site-header">
       <nav className="navbar" aria-label="Main navigation">
-        <a className="brand" href="#home" onClick={closeMenu} aria-label="SR Bearings home">
+        <a className="brand" href="#home" onClick={closeMenu} aria-label="SR Bearings Corporation home">
           <img className="brand-logo" src="/assets/srb-legacy-logo.png" alt="" />
-          <span>SR Bearings</span>
+          <span>SR Bearings Corporation</span>
         </a>
 
         <button
@@ -268,7 +268,7 @@ function App() {
           <div>
             <a className="brand footer-brand" href="#home">
               <img className="brand-logo" src="/assets/srb-legacy-logo.png" alt="" />
-              <span>SR Bearings</span>
+              <span>SR Bearings Corporation</span>
             </a>
             <p>Reliable bearing and industrial component solutions.</p>
           </div>
@@ -288,7 +288,7 @@ function App() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© {currentYear} SR Bearings. All rights reserved.</p>
+          <p>© {currentYear} SR Bearings Corporation. All rights reserved.</p>
         </div>
       </footer>
     </>
