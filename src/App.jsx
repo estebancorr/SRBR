@@ -185,7 +185,9 @@ function App() {
             <div className="brand-grid">
               {brands.map((brand) => (
                 <div className="brand-chip" key={brand}>
-                  {brand}
+                  <span className="notranslate" translate="no">
+                    {brand}
+                  </span>
                 </div>
               ))}
             </div>
@@ -284,7 +286,9 @@ function App() {
           </div>
           <div>
             <h2>Main Brands</h2>
-            <p>SKF • FAG • TIMKEN • NSK • KOYO • NTN</p>
+            <p className="notranslate" translate="no">
+              SKF • FAG • TIMKEN • NSK • KOYO • NTN
+            </p>
           </div>
         </div>
         <div className="footer-bottom">
