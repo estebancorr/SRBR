@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-const phone = '[PLACE PHONE NUMBER]';
+const phone = '+1 (954) 544-1297';
 const email = 'srbearingscorporation@gmail.com';
-const whatsappNumber = '[PLACE NUMBER WITHOUT SYMBOLS]';
-const location = '[PLACE CITY, STATE, USA]';
+const whatsappNumber = '19545441297';
+const location = 'Miami, Florida, USA';
 
 const navLinks = [
   { label: 'Home', href: '#home' },
