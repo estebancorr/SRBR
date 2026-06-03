@@ -326,6 +326,10 @@ svg {
   gap: 54px;
 }
 
+.contact-grid {
+  grid-template-columns: minmax(0, 760px);
+}
+
 .section-header {
   max-width: 720px;
 }
@@ -481,36 +485,6 @@ svg {
   margin-top: 28px;
 }
 
-.contact-card {
-  padding: 30px;
-}
-
-.contact-card dl {
-  margin: 0;
-}
-
-.contact-card div + div {
-  margin-top: 22px;
-  padding-top: 22px;
-  border-top: 1px solid var(--color-border);
-}
-
-.contact-card dt {
-  color: var(--color-gray);
-  font-size: 0.78rem;
-  font-weight: 900;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.contact-card dd {
-  margin: 6px 0 0;
-  color: var(--color-navy);
-  font-size: 1.08rem;
-  font-weight: 800;
-  overflow-wrap: anywhere;
-}
-
 .site-footer {
   color: #dbe6f1;
   background: #08131f;
@@ -518,7 +492,7 @@ svg {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr 1fr;
+  grid-template-columns: 1.2fr 0.75fr 0.95fr 1.1fr;
   gap: 42px;
   padding: 52px 0;
 }
@@ -553,6 +527,15 @@ svg {
 
 .footer-links a:hover {
   color: var(--color-orange);
+}
+
+.footer-contact p {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.footer-contact p + p {
+  margin-top: 9px;
 }
 
 .footer-bottom {

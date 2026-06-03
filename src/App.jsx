@@ -65,7 +65,9 @@ function Header() {
       <nav className="navbar" aria-label="Main navigation">
         <a className="brand" href="#home" onClick={closeMenu} aria-label="SR Bearings Corporation home">
           <img className="brand-logo" src="/assets/srb-legacy-logo.png" alt="" />
-          <span>SR Bearings Corporation</span>
+          <span className="notranslate" translate="no">
+            SR Bearings Corporation
+          </span>
         </a>
 
         <button
@@ -245,22 +247,6 @@ function App() {
                 </a>
               </div>
             </div>
-            <div className="contact-card">
-              <dl>
-                <div>
-                  <dt>Phone</dt>
-                  <dd>{phone}</dd>
-                </div>
-                <div>
-                  <dt>Email</dt>
-                  <dd>{email}</dd>
-                </div>
-                <div>
-                  <dt>Location</dt>
-                  <dd>{location}</dd>
-                </div>
-              </dl>
-            </div>
           </div>
         </section>
       </main>
@@ -270,7 +256,9 @@ function App() {
           <div>
             <a className="brand footer-brand" href="#home">
               <img className="brand-logo" src="/assets/srb-legacy-logo.png" alt="" />
-              <span>SR Bearings Corporation</span>
+              <span className="notranslate" translate="no">
+                SR Bearings Corporation
+              </span>
             </a>
             <p>Reliable bearing and industrial component solutions.</p>
           </div>
@@ -290,9 +278,23 @@ function App() {
               SKF • FAG • TIMKEN • NSK • KOYO • NTN
             </p>
           </div>
+          <div>
+            <h2>Contact</h2>
+            <div className="footer-contact">
+              <p>Phone: {phone}</p>
+              <p>Email: {email}</p>
+              <p>Location: {location}</p>
+            </div>
+          </div>
         </div>
         <div className="footer-bottom">
-          <p>© {currentYear} SR Bearings Corporation. All rights reserved.</p>
+          <p>
+            © {currentYear}{' '}
+            <span className="notranslate" translate="no">
+              SR Bearings Corporation
+            </span>
+            . All rights reserved.
+          </p>
         </div>
       </footer>
     </>
