@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const phone = '[PLACE PHONE NUMBER]';
-const email = '[PLACE EMAIL ADDRESS]';
+const email = 'srbearingscorporation@gmail.com';
 const whatsappNumber = '[PLACE NUMBER WITHOUT SYMBOLS]';
 const location = '[PLACE CITY, STATE, USA]';
 
